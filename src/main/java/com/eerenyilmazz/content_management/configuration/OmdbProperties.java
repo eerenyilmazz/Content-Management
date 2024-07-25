@@ -14,4 +14,7 @@ public class OmdbProperties {
 
     @Value("${omdb.api.key}")
     private String apiKey;
+
+    @Value("${omdb.url}")
+    private String url;
 }
